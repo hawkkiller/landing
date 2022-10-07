@@ -1,0 +1,95 @@
+name: blaze_starter
+description: Your description
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+  flutter: ">=3.3.1 <4.0.0"
+
+dependencies:
+  # SDK
+  flutter:
+    sdk: flutter
+  collection: 1.16.0
+  async: 2.9.0
+  meta: 1.8.0
+
+  # Stream
+  stream_transform: 2.0.0
+  rxdart: 0.27.5
+
+  # BLoC
+  stream_bloc: 0.5.2
+
+  # HTTTP
+  dio: 4.0.6
+  retrofit: 3.0.1+1
+
+  # Router
+  go_router: 5.0.5
+
+  # Firebase
+  firebase_analytics: 9.3.7
+  firebase_core: 1.24.0
+
+  # l10n
+  intl: 0.17.0
+  flutter_localizations:
+    sdk: flutter
+
+  # Path receiving/manipulation
+  path_provider: 2.0.11
+  path: 1.8.2
+
+  # Persisting
+  drift: 2.1.0
+  sqlite3_flutter_libs: 0.5.10
+  shared_preferences: 2.0.15
+
+  # Codegen annotations
+  json_annotation: 4.7.0
+  freezed_annotation: 2.1.0
+  theme_tailor_annotation: 1.0.3
+
+  # Logging
+  stack_trace: 1.10.0
+  l: 3.2.0
+  sentry_flutter: 6.11.1
+
+  # Lints
+  purple_lints: 0.3.0
+  
+  # Helpers
+  pure: 0.2.0
+
+dev_dependencies:
+  # Testing
+  flutter_test:
+    sdk: flutter
+
+  # Codegen
+  freezed: 2.1.0+1
+  go_router_builder: 1.0.14
+  json_serializable: 6.4.1
+  theme_tailor: 1.0.6
+  build_runner: 2.2.1
+  drift_dev: 2.1.0
+  retrofit_generator: 4.1.1
+
+  # Utilities
+  flutter_launcher_icons: 0.10.0
+  flutter_native_splash: 2.2.10+1
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
